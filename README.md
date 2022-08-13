@@ -19,8 +19,10 @@ yarn dev
 - Next.js
 - Typescript
 - Tailwind CSS
+- Headless UI
 - ESlint
 - Prettier
+- husky
 
 ### 参考
 
