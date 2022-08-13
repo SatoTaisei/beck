@@ -1,5 +1,5 @@
 {
-  "name": "mock-rem",
+  "name": "beck",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,10 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": "npx eslint . --fix",
-    "*": "npx prettier --write ."
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix .",
+      "prettier --write ."
+    ]
   },
   "dependencies": {
     "next": "12.2.4",
