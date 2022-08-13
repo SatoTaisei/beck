@@ -1,4 +1,4 @@
-# 顧客管理システム(mock-CRM): Rem -レム-
+# Beck - Mock Contact System -
 
 ## はじめに
 
@@ -11,6 +11,8 @@ yarn dev
 ```
 
 ブラウザで [http://localhost:3000](http://localhost:3000) を確認。
+
+コードネーム「Beck -Mock Contact System-」は、漫画 BECK の海外向けバンド名「Mongolian Chop Squad（M.C.S）」が由来。
 
 ## 設定環境
 
