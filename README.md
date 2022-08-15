@@ -1,5 +1,7 @@
 # Beck - Mock Contact System -
 
+コードネーム **Beck** は、漫画 BECK 内の海外向けバンド名「Mongolian Chop Squad（M.C.S）」が由来。
+
 ## はじめに
 
 開発サーバーを立ち上げる場合は、以下のコマンドを入力。
@@ -12,9 +14,7 @@ yarn dev
 
 ブラウザで [http://localhost:3000](http://localhost:3000) を確認。
 
-コードネーム「Beck -Mock Contact System-」は、漫画 BECK の海外向けバンド名「Mongolian Chop Squad（M.C.S）」が由来。
-
-## 設定環境
+## 技術選定
 
 - Next.js
 - Typescript
