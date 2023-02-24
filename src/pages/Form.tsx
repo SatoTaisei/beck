@@ -21,7 +21,7 @@ const Form: NextPage = () => {
       <section className="flex flex-wrap -mx-3 mb-6">
         <div className="w-full md:w-1/2 px-3 md:mb-0">
           <Input
-            label="FirstName"
+            label="firstName"
             register={register}
             required
             maxLength={8}
@@ -31,7 +31,7 @@ const Form: NextPage = () => {
         </div>
         <div className="w-full md:w-1/2 px-3 md:mb-0">
           <Input
-            label="LastName"
+            label="lastName"
             register={register}
             required
             maxLength={8}
@@ -43,7 +43,7 @@ const Form: NextPage = () => {
 
       <section className="mb-6">
         <Input
-          label="Email"
+          label="email"
           register={register}
           required
           maxLength={200}
@@ -54,7 +54,7 @@ const Form: NextPage = () => {
 
       <section className="mb-6">
         <Input
-          label="Tel"
+          label="tel"
           register={register}
           required
           maxLength={12}
@@ -64,12 +64,12 @@ const Form: NextPage = () => {
       </section>
 
       <section className="mb-6">
-        <Select label="Product" {...register("Product")} />
+        <Select label="productName" {...register("productName")} />
       </section>
 
       <section className="mb-6">
         <TextArea
-          label="Inquiry"
+          label="inquiryText"
           register={register}
           maxLength={2000}
           required
