@@ -1,9 +1,9 @@
 import { NextPage } from "next";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-import { Input } from "@/components/ui/Form/Input";
-import { Select } from "@/components/ui/Form/Select";
-import { TextArea } from "@/components/ui/Form/TextArea";
+import { Input } from "@/components/ui/Input";
+import { Select } from "@/components/ui/Select";
+import { TextArea } from "@/components/ui/TextArea";
 
 import type { FormValues } from "@/components/types/Form";
 
