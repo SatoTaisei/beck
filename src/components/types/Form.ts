@@ -1,12 +1,12 @@
 import { FieldErrors, Path, UseFormRegister } from "react-hook-form";
 
 export type FormValues = {
-  FirstName: string;
-  LastName: string;
-  Email: string;
-  Tel: number;
-  Product: string;
-  Inquiry: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  tel: number;
+  productName: string;
+  inquiryText: string;
 };
 
 export type FormComponentsProps = {
