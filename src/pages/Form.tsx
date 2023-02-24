@@ -3,7 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 
 import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
-import { TextArea } from "@/components/ui/TextArea";
+import { Textarea } from "@/components/ui/Textarea";
 
 import type { FormValues } from "@/components/types/Form";
 
@@ -68,7 +68,7 @@ const Form: NextPage = () => {
       </section>
 
       <section className="mb-6">
-        <TextArea
+        <Textarea
           label="inquiryText"
           register={register}
           maxLength={2000}
